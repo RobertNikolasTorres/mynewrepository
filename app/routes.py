@@ -1,5 +1,5 @@
 from flask import Flask    # From the flask module import the Flask class
-
+#OOP = Object Oriented Paradigm
 app = Flask(__name__)       # Create an instance of Flask into app (object)
 
 @app.get("/")               # Flask decorator for defininig routes
